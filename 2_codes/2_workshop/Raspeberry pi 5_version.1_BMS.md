@@ -8,14 +8,14 @@ This folder has a main folder " *Battery_prj* "  which has four subfolders insid
 " *3state_ekf*  "," *codes_to_share* " , " *Priyanshu_Orgnl_Folder* " and  "*Test*" .
 
 1. " *3state_ekf*  " Folder includes four subfolders :
-   - *Charge -* This folder has 5 sub-folders, where 4 folders has csv file of different battery _C_ rates for the input, whose path we need to add on the "codes_to_share/EKF_Simulation.py". And a Result folder where the ekf simulation results would be saved, which can be used by the tft_display program to display it.
+   - *Charge -* This folder has 5 sub-folders, where 4 folders has csv file of different battery _C_ rates for the input, whose path we need to paste on the "codes_to_share/EKF_Simulation.py". And a Result folder where the ekf simulation results would be saved, which can be used by the tft_display program to display it.
    - *Discharge -* similarly like charge folder this folder also has subfolders which has csv files.
    - *HPPC_charge -* (Not Required for v1)
    - *HPPC_discharge -* (Not Required for v1)
    
-2._ "_codes_to_share_" Folder includes six files, but currently we only need to work with one file "EKF_Simulation.py" .
+2._ "_codes_to_share_" Folder includes six files, but currently we only need to work with "EKF_Simulation.py" .
 
-3._ " *Priyanshu_Orgnl_Folder* " has the original files without any manipulation, for the refernce folder structure.
+3._ " *Priyanshu_Orgnl_Folder* " has the original files without any manipulation, for the reference folder structure.
 
 4._ "*Test*" folder has two sub folders , but for raspberry pi 5 we will use                "_Pi5_TFT_Testfiles_" 
 - for displaying SOC on tft screen we will run this  "_soc_tft_pi5_display1.py_" file using "thevenin-env". 
